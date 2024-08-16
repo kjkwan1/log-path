@@ -1,4 +1,4 @@
-import { LogLevel } from "types/log-level.type";
+import { LogLevel } from "../types/log-level.type";
 
 export interface LogPathOptions {
     isTopLevel?: boolean;

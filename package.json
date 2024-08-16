@@ -1,19 +1,33 @@
 {
-  "name": "logpath",
+  "name": "@kjkwan1/logpath",
   "version": "1.0.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kevin Kwan",
   "license": "ISC",
-  "description": "",
+  "description": "LogPath is a utility library that provides a decorator for unobtrusive logging.",
   "dependencies": {
     "typescript": "^5.5.4",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/uuid": "^10.0.0"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjkwan1/log-path.git"
+  },
+  "types": "./lib/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/kjkwan1/log-path/issues"
+  },
+  "homepage": "https://github.com/kjkwan1/log-path#readme"
 }

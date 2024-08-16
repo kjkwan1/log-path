@@ -1,5 +1,5 @@
-import { LogLevel } from "types/log-level.type";
-import { LogMode } from "types/log-mode.type";
+import { LogLevel } from "../types/log-level.type";
+import { LogMode } from "../types/log-mode.type";
 
 /**
  * Specify an endpoint to send logs to based on log level. You may provide multiple endpoints for any log level if necessary.

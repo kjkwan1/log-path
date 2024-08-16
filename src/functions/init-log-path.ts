@@ -1,4 +1,4 @@
-import { LogConfig } from "types/log-config.type";
+import { LogConfig } from "../types/log-config.type";
 import { ConfigService } from "../services/config.service";
 
 /**

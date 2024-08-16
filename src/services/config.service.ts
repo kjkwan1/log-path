@@ -1,11 +1,11 @@
-import { MultipleEndpointConfig, SingleEndpointConfig } from "interfaces/log-config.interface";
-import { LogConfig } from "types/log-config.type";
-import { isValidLogLevel } from "types/log-level.type";
+import { MultipleEndpointConfig, SingleEndpointConfig } from "../interfaces/log-config.interface";
+import { LogConfig } from "../types/log-config.type";
+import { isValidLogLevel } from "../types/log-level.type";
 import { DEFAULT_CONFIG } from "../shared/default-config";
 
 export class ConfigService {
     private static instance: ConfigService;
-    private static config: LogConfig;
+    private static config: LogConfig = DEFAULT_CONFIG;
     
     public static getInstance() {
         if (!this.instance) {

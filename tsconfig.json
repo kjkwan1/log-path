@@ -9,11 +9,5 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "lib",
-    "paths": {
-      "functions/*": ["./src/functions/*"],
-      "interfaces/*": ["./src/interfaces/*"],
-      "types/*": ["./src/types/*"],
-      "services/*": ["./src/services/*"]
-    }
   }
 }

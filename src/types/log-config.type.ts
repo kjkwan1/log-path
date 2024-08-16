@@ -1,4 +1,4 @@
-import { MultipleEndpointConfig, SingleEndpointConfig } from "interfaces/log-config.interface";
+import { MultipleEndpointConfig, SingleEndpointConfig } from "../interfaces/log-config.interface";
 
 /**
  * Configuration options for LogPath library.
