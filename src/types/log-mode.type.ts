@@ -1,0 +1,1 @@
+export type LogMode = 'single' | 'multiple';
