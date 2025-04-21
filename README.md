@@ -1,6 +1,6 @@
 # LogPath
 
-LogPath is a TypeScript-first, decorator-based logging library designed for easy integration and tracing capabilities in modern JavaScript applications.
+TypeScript-first, decorator-based logging library designed for easy integration and tracing capabilities in modern JavaScript applications.
 
 ## Features
 
